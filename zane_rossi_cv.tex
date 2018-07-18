@@ -1,0 +1,222 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{scrartcl}
+
+\reversemarginpar % Move the margin to the left of the page 
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}} % New command defining the margin text style
+
+\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+
+\usepackage[left=1.7in,right=0.75in,top=0.5in,bottom=0.5in]{geometry}
+
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+
+\definecolor{nasaBlue}{rgb}{0.439, 0.11. 0.11} % primary color of the document
+
+\definecolor{plumRed}{rgb}{0.439, 0.11. 0.11}
+
+\renewcommand{\cvheadingfont}{\Large\color{nasaBlue}} % Font color of your name at the top
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\hypersetup{colorlinks, breaklinks, urlcolor=nasaBlue, linkcolor=nasaBlue} % Set link colors
+
+\newlength{\datebox}\settowidth{\datebox}{Lead Facilitator, \textsc{\textcolor{nasaBlue}{Kids Are Scientists Too}}} % Set the width of the date box in each block
+
+\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=1 \parbox{\datebox}{\footnotesize #1}\hspace{1.5em}{\footnotesize #2 #3} % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.0em}} % Add some white space after each new entry
+
+\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{0.5em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+%----------------------------------------------------------------------------------------
+
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{fourier-orns}
+\usepackage{stix}
+\usepackage{microtype}
+
+\def\vhrulefill{\leavevmode\leaders\hrule height 0.7ex depth \dimexpr0.4pt-0.7ex\hfill\kern0pt}
+
+\linespread{1.0}
+
+% \setlength{\parskip}{0.5em}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\date{}
+
+\thispagestyle{empty} % Stop the page count at the bottom of the first page
+\pagenumbering{gobble}
+
+
+\begin{tikzpicture}[overlay, remember picture]
+	% \node[anchor=north west, %anchor is upper left corner of the graphic
+ %      xshift=10.0cm, %shifting around
+ %      yshift=-1.8cm] 
+ %     at (current page.north west) %left upper corner of the page
+ %     {\includegraphics[width=1cm]{shield.eps}}; 
+
+     \fill[color=nasaBlue] (-8cm, 2cm) rectangle (18cm,1.5cm);
+\end{tikzpicture}
+
+\begin{cv}{\spacedallcaps{Zane Rossi}}\vspace{1.5em} % Your name
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\noindent
+\begin{minipage}[t]{.6\textwidth}
+
+\noindent\textbf{education} \hspace{1ex} \vhrulefill \vspace{0.5em} 
+
+{\footnotesize\noindent
+The University of Chicago --- Chicago, IL}
+
+\Description{Expected B.S.\ Mathematics, B.A.\ Physics $\cdotp$ June, 2019\newline
+GPA: 3.91 $\cdotp$ (Major GPA: 4.00) $\cdotp$ Mathematics and Physics Major, Creative Writing Minor
+}
+
+{\footnotesize\noindent
+TJHSST --- Alexandria, VA}
+
+\Description{Diploma in 2015 from the Thomas Jefferson HS for Science and Technology\newline
+GPA: 4.44 $\cdotp$ \textit{National Merit Finalist, AP Scholar, NACLO Finalist}
+}
+
+\end{minipage}\hspace{1em}% This must go next to `\end{minipage}`
+\begin{minipage}[t]{.35\textwidth}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\noindent\textbf{personal information} \hspace{1ex} \vhrulefill \vspace{0.5em}  % Personal information heading
+
+\hangindent=2em\hangafter=0{\footnotesize
+\noindent 5717 1/2, S. Kimbark Ave.\newline
+Chicago, IL, 60637\newline
+(M) +1 (925) 330 0920\newline
+\href{mailto:zmr@uchicago.edu}{zmr@uchicago.edu} % Email address
+}
+
+\vspace{0.5em}
+
+\end{minipage}
+
+\vspace{0.5em}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\noindent\textbf{work experience} \hspace{1ex} \vhrulefill \vspace{0.5em} 
+
+%------------------------------------------------
+
+\NewEntry{{\textcolor{nasaBlue}{Chong Lab}} $\cdot$ Chicago, IL}{Apr--Sep 2018}
+
+\Description{\MarginText{Computer-Science Research Assistant}\textcolor{nasaBlue}{$\mdblkdiamond$} Authored Python/C code and analytic theory for the optimal generation of various error-corrective (e.g., Shor code, cat-code) evolution schemes in appropriately coupled systems of qubits with novel models for included noise\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} Investigated algorithmic complexity of optimal control codes, and authored proof-of-concept models toward an eventual quantum compilation engine capable of efficient creation of simple evolution schemes from finite sets of constituent gates using sparse matrix techniques\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} Gave weekly informal presentations to group members, and more occasional formal presentations to other members of EPiQC multi-institution consortium, under lead PI, Professor Fred Chong\\
+%Reference: Phillipe \textsc{Guyot-Sionnest}\ \ $\cdotp$\ \ \href{mailto:pgs@uchicago.edu}{pgs@uchicago.edu}
+}
+
+%------------------------------------------------
+
+\NewEntry{{\textcolor{nasaBlue}{Katsura Lab}} $\cdot$ Tokyo, JPN}{Jun--Dec 2017}
+
+\Description{\MarginText{Mathematical Physics Research Assistant}\textcolor{nasaBlue}{$\mdblkdiamond$} Derived novel entanglement metrics for MBL quantum spin systems exhibiting time-translation symmetry breaking using DMRG principles and a distinctly information theoretic approach\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} Designed and implemented algorithms based in Vidal's TEBD theory, exponentially reducing time for classical simulation of MBL systems. Drafted and presented weekly lectures to graduate and undergraduate students at the University of Tokyo Hongo campus, and final program report\\
+%Reference: Phillipe \textsc{Guyot-Sionnest}\ \ $\cdotp$\ \ \href{mailto:pgs@uchicago.edu}{pgs@uchicago.edu}
+}
+
+%------------------------------------------------
+
+\NewEntry{{\textcolor{nasaBlue}{Guyot-Sionnest Lab}} $\cdot$ Chicago, IL}{Jun--Dec 2016}
+
+\Description{\MarginText{Computational Physics Research Assistant}\textcolor{nasaBlue}{$\mdblkdiamond$} Designed, wrote, and tested algorithms to both electromagnetically model behavior of thin-film photovoltaic devices and optimize physical dimensions via metaheuristic search algorithms\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} Wrote documentation for designed code, formatted theoretical data to be compared with experiment performed by University of Chicago Guyot-Sionnest Lab, and presented these results to colleagues in weekly meetings\\
+%Reference: Phillipe \textsc{Guyot-Sionnest}\ \ $\cdotp$\ \ \href{mailto:pgs@uchicago.edu}{pgs@uchicago.edu}
+}
+
+%------------------------------------------------
+
+\NewEntry{{\textcolor{nasaBlue}{Haghighat Lab}} $\cdot$ Arlington, VA}{Jun--Aug 2014, 2015}
+
+\Description{\MarginText{Computational Physics Intern}\textcolor{nasaBlue}{$\mdblkdiamond$} Designed and programmed simulations of reactor-pool neutron-scattering with the Virginia Tech Transport Theory Group (VT\textsuperscript{3}G) to optimize heat diffusion characteristics of spent fuel repositories\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} Prepared presentations and \LaTeX \ reports; authored/supplemented previous \textsc{FORTRAN}/C\# for simulations under the PENTRAN modeling framework\\
+%Reference: Nathan \textsc{Roskoff}\ \ $\cdotp$\ \ \href{mailto:roskofnj@gmail.com}{roskofnj@gmail.com}
+}
+
+\vspace{0.5em}
+
+%----------------------------------------------------------------------------------------
+%	RELEVANT COURSE WORK
+%----------------------------------------------------------------------------------------
+
+\noindent\textbf{relevant coursework} \hspace{1ex} \vhrulefill \vspace{0.5em}
+
+\Description{\MarginText{Mathematics}{Real Analysis} $\cdot$ {Complex Analysis} $\cdot$ {Differential Equations} $\cdot$ {Honors Abstract Algebra} $\cdot$ {Computability Theory} $\cdot$ {Mathematical Logic}}
+
+\Description{\MarginText{Physics}{Quantum Mechanics} $\cdot$ {Honors Mechanics, Electrodynamics} $\cdot$ {Experimental Physics} $\cdot$ {Graduate General Relativity} $\cdot$ {Graduate Quantum Information}}
+
+\Description{\MarginText{Computer Science}{Artificial Intelligence} $\cdot$ {Algorithms} $\cdot$ {Computational Linguistics}}
+
+\vspace{3em}
+
+\begin{center}
+\hspace{-6em} \textit{- curriculum vitae continued below -}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	FELLOWSHIPS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+\pagebreak
+
+\noindent\textbf{fellowships and awards} \hspace{1ex} \vhrulefill \vspace{0.5em}
+
+\noindent\Description{\textcolor{nasaBlue}{$\mdblkdiamond$} {Fay and Walter Selove Prize} (2018)  $\cdot$ {Awarded supplementary stipend for research with University of Chicago professor; award given by the Physics department}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {University of Chicago Student Marshal} (2018)  $\cdot$ {Awarded highest honor conferred to undergraduate students at the University of Chicago: for exceptional academic and community standing in the student's third year}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {Phi Beta Kappa, Junior Year} (2018)  $\cdot$ {Awarded membership in the Beta Chapter of Illinois for academic performance in the top 5\% of students (Junior-year selection criteria more rigorous)}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {FUTI Award} (2017)  $\cdot$ {Awarded additional stipend for summer research with Katsura group of the University of Tokyo, courtesy of Friends of UTokyo Inc., for use during the University of Tokyo Research Internship Program (UTRIP)}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {James Franck Institute Summer Fellowship} (2016)  $\cdot$ {Awarded stipend for research with University of Chicago professor, sponsored by the James Franck Institute}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {University Dean's List} (2016, 2017, 2018) $\cdot$ {Awarded for GPA above 3.25 for academic year
+}
+}
+
+%----------------------------------------------------------------------------------------
+%	LEADERSHIP AND EXTRA-CURRICULARS
+%----------------------------------------------------------------------------------------
+
+\noindent\textbf{leadership and extra-curriculars} \hspace{1ex} \vhrulefill \vspace{0.5em}
+
+\Description{\MarginText{Mathematics Lecturer}{(2015-2018) Author and lecturer of presentations for the societies of mathematics and physics students at the University of Chicago; lecture topics center on introductory material, as well as material specific to the lecturer's research.}}
+
+\Description{\MarginText{Reading Program}{(2017-2018) Directed reading under the graduate students and principle investigators of both the Schuster and Chong Labs of the University of Chicago, including weekly meetings and perusal of modern papers in the area of optimal control theory, and specifically the application of machine learning/variational calculus paradigms to the creation of optimal quantum evolution/error correction schemes.}}
+
+\Description{\MarginText{Writers' Workshop}{(2017-2018) President and lead facilitator of the University of Chicago's Writers' Workshop, which offers course-style, student-run fiction and poetry workshops for undergraduate and graduate students, which include both lecture and workshop components. Work includes securing funding, authoring lesson plans on outside texts, and providing feedback and guidance for students during weekly sessions.}}
+
+\Description{\MarginText{University Orchestra}{(2016-2018) Oboe player (alternatively first and second position) in the University of Chicago Symphony Orchestra, which performs two concerts per academic quarter (ten weeks), with up to six hours of rehearsal per week. Performs classical as well as modern repertoire.}}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL SKILLS
+%----------------------------------------------------------------------------------------
+
+\noindent\textbf{additional skills} \hspace{1ex} \vhrulefill \vspace{0.5em}
+
+\Description{\MarginText{Programming}{Java} $\cdot$ {Python} $\cdot$ {Haskell} $\cdot$ {FORTRAN} $\cdot$ {Mathematica} $\cdot$ {MATLAB} $\cdot$ {HTML}/{CSS}}
+
+\Description{\MarginText{Miscellaneous}{UNIX} $\cdot$ \LaTeX \ $\cdot$ {Microsoft Office} $\cdot$ {GIMP}}
+
+\Description{\MarginText{Language}{Japanese (4+ years of study $\cdot$ high-intermediate)}}
+
+\end{cv}
+
+\end{document}
