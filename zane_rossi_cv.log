@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  2 AUG 2018 13:47
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  14 AUG 2018 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -484,8 +484,14 @@ Package: currvita 1999/09/13 v0.9i Typesetting a Curriculum Vitae
 \cvlabelskip=\skip96
 \cvlabelwidth=\skip97
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 24.
-Package hyperref Info: Option `breaklinks' set `true' on input line 24.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
+Package hyperref Info: Option `breaklinks' set `true' on input line 32.
 \datebox=\skip98
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -895,7 +901,7 @@ LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
 (Font)              `operators' in the math version `bold' on input line 77.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/pplx/b/n --> LS1/stix/m/n on input line 77.
-\symbold-operators=\mathgroup5
+\symbold-operators=\mathgroup6
 LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
 LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 79.
@@ -905,10 +911,10 @@ LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
 (Font)              `symbols' in the math version `bold' on input line 79.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/zplm/b/n --> LS1/stixscr/m/n on input line 79.
-\symsymbols2=\mathgroup6
-\symsymbols3=\mathgroup7
-\symsymbols4=\mathgroup8
-\symintegrals=\mathgroup9
+\symsymbols2=\mathgroup7
+\symsymbols3=\mathgroup8
+\symsymbols4=\mathgroup9
+\symintegrals=\mathgroup10
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
 LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 8
@@ -920,9 +926,9 @@ LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/zplm/m/n --> LS2/stixex/m/n on input line 84.
-\symarrows1=\mathgroup10
-\symarrows2=\mathgroup11
-\symarrows3=\mathgroup12
+\symarrows1=\mathgroup11
+\symarrows2=\mathgroup12
+\symarrows3=\mathgroup13
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
@@ -957,54 +963,54 @@ LaTeX Info: Redefining \not on input line 2144.
 (./zane_rossi_cv.aux)
 \openout1 = `zane_rossi_cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LS1+stix on input line 50.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for LS1+stix on input line 57.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for LS2+stix on input line 50.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for LS2+stix on input line 57.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+stix on input line 50.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for T1+stix on input line 57.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 )
 \AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring ON on input line 50.
+Package hyperref Info: Link coloring ON on input line 57.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1014,16 +1020,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
 
 (./zane_rossi_cv.out) (./zane_rossi_cv.out)
 \@outlinefile=\write4
 \openout4 = `zane_rossi_cv.out'.
 
 \big@size=\dimen187
-LaTeX Info: Redefining \microtypecontext on input line 50.
+LaTeX Info: Redefining \microtypecontext on input line 57.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1069,22 +1075,20 @@ Package microtype Info: Loading generic settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <12> not available
-(Font)              Font shape `T1/stix/b/n' tried instead on input line 76.
 LaTeX Font Info:    Try loading font information for LS1+stixscr on input line 
-83.
+74.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
-LaTeX Font Info:    Try loading font information for LS2+stixex on input line 8
-3.
+LaTeX Font Info:    Try loading font information for LS2+stixex on input line 7
+4.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 83.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 74.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -1094,40 +1098,52 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 74.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
 LaTeX Font Info:    Try loading font information for LS1+stixfrak on input line
- 83.
+ 74.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
-LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 8
-3.
+LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 7
+4.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Try loading font information for LS2+stixcal on input line 
-83.
+74.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
-LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 8
-3.
+LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 7
+4.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
-LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 8
-3.
+LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 7
+4.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
+LaTeX Font Info:    Font shape `T1/stix/bx/n' in size <12> not available
+(Font)              Font shape `T1/stix/b/n' tried instead on input line 83.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 91.
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
@@ -1135,19 +1151,24 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (./zane_rossi_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 222.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 230.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
- 26519 strings out of 493005
- 494704 string characters out of 6134596
- 651331 words of memory out of 5000000
- 30122 multiletter control sequences out of 15000+600000
- 87800 words of font info for 133 fonts, out of 8000000 for 9000
+ 26731 strings out of 493005
+ 497515 string characters out of 6134596
+ 653898 words of memory out of 5000000
+ 30321 multiletter control sequences out of 15000+600000
+ 96373 words of font info for 154 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  64i,22n,80p,8824b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 

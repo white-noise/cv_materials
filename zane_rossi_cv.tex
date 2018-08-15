@@ -14,9 +14,17 @@
 
 \usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
 
-\definecolor{nasaBlue}{rgb}{0.439, 0.11. 0.11} % primary color of the document
+% \definecolor{nasaBlue}{rgb}{0.439, 0.11. 0.11} % primary color of the document
+
+% \definecolor{nasaBlue}{rgb}{0.043, 0.238, 0.566} % true nasa blue
+
+% \definecolor{nasaBlue}{rgb}{0.024, 0.122, 0.29}
 
 \definecolor{plumRed}{rgb}{0.439, 0.11. 0.11}
+
+\definecolor{nasaBlue}{RGB}{111,4,32}
+
+\usepackage{wasysym}
 
 \renewcommand{\cvheadingfont}{\Large\color{nasaBlue}} % Font color of your name at the top
 
@@ -44,7 +52,6 @@
 
 % \setlength{\parskip}{0.5em}
 
-
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -64,7 +71,7 @@
      \fill[color=nasaBlue] (-8cm, 2cm) rectangle (18cm,1.5cm);
 \end{tikzpicture}
 
-\begin{cv}{\spacedallcaps{Zane Rossi}}\vspace{1.5em} % Your name
+\begin{cv}{\spacedallcaps{Zane Rossi} $\,\cdot\,$ \virgo}\vspace{1.5em} % Your name
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -79,15 +86,16 @@
 The University of Chicago --- Chicago, IL}
 
 \Description{Expected B.S.\ Mathematics, B.A.\ Physics $\cdotp$ June, 2019\newline
-GPA: 3.92 $\cdotp$ (Major GPA: 4.00) $\cdotp$ Mathematics and Physics Major, Creative Writing Minor
+GPA: 3.92 $\cdotp$ (Major GPA: 4.00) $\cdotp$ Mathematics and Physics Major, Creative Writing Minor\newline
+Japanese (4+ years study, High-Intermediate)
 }
 
-{\footnotesize\noindent
-TJHSST --- Alexandria, VA}
+% {\footnotesize\noindent
+% TJHSST --- Alexandria, VA}
 
-\Description{Diploma in 2015 from the Thomas Jefferson HS for Science and Technology\newline
-GPA: 4.44 $\cdotp$ \textit{National Merit Finalist, AP Scholar, NACLO Finalist}
-}
+% \Description{Diploma in 2015 from the Thomas Jefferson HS for Science and Technology\newline
+% GPA: 4.44 $\cdotp$ \textit{National Merit Finalist, AP Scholar, NACLO Finalist}
+% }
 
 \end{minipage}\hspace{1em}% This must go next to `\end{minipage}`
 \begin{minipage}[t]{.35\textwidth}
@@ -112,6 +120,23 @@ Chicago, IL, 60637\newline
 \vspace{0.5em}
 
 %----------------------------------------------------------------------------------------
+%	FELLOWSHIPS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+% \pagebreak
+
+\noindent\textbf{fellowships and awards} \hspace{1ex} \vhrulefill \vspace{0.5em}
+
+\noindent\Description{\textcolor{nasaBlue}{$\mdblkdiamond$} {Fay and Walter Selove Prize} (2018)  $\cdot$ {Awarded supplementary stipend for research with University of Chicago professor: awarded by the Physics department}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {University of Chicago Student Marshal} (2018)  $\cdot$ {Awarded highest honor conferred to undergraduate students at the University of Chicago: for exceptional academic and community standing in the student's third year}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {Phi Beta Kappa, Junior Year} (2018)  $\cdot$ {Awarded membership in the Beta Chapter of Illinois (Junior-year selection criteria more rigorous)}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {FUTI Award} (2017)  $\cdot$ {Awarded stipend for summer research with Katsura group of the University of Tokyo, courtesy of Friends of UTokyo Inc., for use during the University of Tokyo Research Internship Program (UTRIP)}\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} {James Franck Institute Summer Fellowship} (2016)  $\cdot$ {Awarded stipend for research with University of Chicago professor: sponsored by the James Franck Institute}%\newline
+% \textcolor{nasaBlue}{$\mdblkdiamond$} {University Dean's List} (2016, 2017, 2018) $\cdot$ {Awarded for GPA above 3.25 for academic year
+% }
+}
+
+%----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
@@ -119,7 +144,7 @@ Chicago, IL, 60637\newline
 
 %------------------------------------------------
 
-\NewEntry{{\textcolor{nasaBlue}{Chong Lab}} $\cdot$ Chicago, IL}{Apr--Sep 2018}
+\NewEntry{{\textcolor{nasaBlue}{Chong Lab}} $\cdot$ Chicago, IL}{Dec 2017--Present}
 
 \Description{\MarginText{Computer-Science Research Assistant}\textcolor{nasaBlue}{$\mdblkdiamond$} Authored Python/C code and analytic theory for the optimal generation of various error-corrective (e.g., Shor code, cat-code) evolution schemes in appropriately coupled systems of qubits with novel models for included noise\newline
 \textcolor{nasaBlue}{$\mdblkdiamond$} Investigated algorithmic complexity of optimal control codes, and authored proof-of-concept models toward an eventual quantum compilation engine capable of efficient creation of simple evolution schemes from finite sets of constituent gates using sparse matrix techniques\newline
@@ -156,6 +181,26 @@ Chicago, IL, 60637\newline
 
 \vspace{0.5em}
 
+\begin{center}
+\hspace{-6em} \textit{- curriculum vitae continued below -}
+\end{center}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	LEADERSHIP AND EXTRA-CURRICULARS
+%----------------------------------------------------------------------------------------
+
+\noindent\textbf{leadership and involvement} \hspace{1ex} \vhrulefill \vspace{0.5em}
+
+\Description{\MarginText{Mathematics Lecturer}{(2015-2018) Author and lecturer of presentations for the societies of mathematics and physics students at the University of Chicago; lectures focus on both introductory, general material and material specific to the lecturer's research.}}
+
+\Description{\MarginText{Reading Program}{(2017-2018) Directed reading under the graduate students and principle investigators of both the Schuster and Chong Labs of the University of Chicago, comprising weekly meeting and perusal of modern papers in the area of optimal control theory, specifically the application of machine learning methods to quantum optimal control \& error correction.}}
+
+\Description{\MarginText{Writers' Workshop}{(2017-2018) President and lead facilitator of the University of Chicago's Writers' Workshop, which offers course-style, student-run fiction and poetry workshops for undergraduate and graduate students, which include both lecture and workshop components. Work includes securing funding, authoring lesson plans on outside texts, and providing guidance \& long-form feedback for students during weekly meetings.}}
+
+\Description{\MarginText{University Orchestra}{(2016-2018) Oboe player (alternatively first and second position) in the University of Chicago Symphony Orchestra, which performs two concerts per academic quarter (i.e., ten weeks), with up to six hours of rehearsal per week. Classical and modern repertoire.}}
+
 %----------------------------------------------------------------------------------------
 %	RELEVANT COURSE WORK
 %----------------------------------------------------------------------------------------
@@ -168,52 +213,15 @@ Chicago, IL, 60637\newline
 
 \Description{\MarginText{Computer Science}{Artificial Intelligence} $\cdot$ {Algorithms} $\cdot$ {Computational Linguistics}}
 
-\vspace{3em}
-
-\begin{center}
-\hspace{-6em} \textit{- curriculum vitae continued below -}
-\end{center}
-
-%----------------------------------------------------------------------------------------
-%	FELLOWSHIPS AND AWARDS
-%----------------------------------------------------------------------------------------
-
-\pagebreak
-
-\noindent\textbf{fellowships and awards} \hspace{1ex} \vhrulefill \vspace{0.5em}
-
-\noindent\Description{\textcolor{nasaBlue}{$\mdblkdiamond$} {Fay and Walter Selove Prize} (2018)  $\cdot$ {Awarded supplementary stipend for research with University of Chicago professor; award given by the Physics department}\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} {University of Chicago Student Marshal} (2018)  $\cdot$ {Awarded highest honor conferred to undergraduate students at the University of Chicago: for exceptional academic and community standing in the student's third year}\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} {Phi Beta Kappa, Junior Year} (2018)  $\cdot$ {Awarded membership in the Beta Chapter of Illinois for academic performance in the top 5\% of students (Junior-year selection criteria more rigorous)}\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} {FUTI Award} (2017)  $\cdot$ {Awarded additional stipend for summer research with Katsura group of the University of Tokyo, courtesy of Friends of UTokyo Inc., for use during the University of Tokyo Research Internship Program (UTRIP)}\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} {James Franck Institute Summer Fellowship} (2016)  $\cdot$ {Awarded stipend for research with University of Chicago professor, sponsored by the James Franck Institute}\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} {University Dean's List} (2016, 2017, 2018) $\cdot$ {Awarded for GPA above 3.25 for academic year
-}
-}
-
-%----------------------------------------------------------------------------------------
-%	LEADERSHIP AND EXTRA-CURRICULARS
-%----------------------------------------------------------------------------------------
-
-\noindent\textbf{leadership and involvement} \hspace{1ex} \vhrulefill \vspace{0.5em}
-
-\Description{\MarginText{Mathematics Lecturer}{(2015-2018) Author and lecturer of presentations for the societies of mathematics and physics students at the University of Chicago; lecture topics center on introductory material, as well as material specific to the lecturer's research.}}
-
-\Description{\MarginText{Reading Program}{(2017-2018) Directed reading under the graduate students and principle investigators of both the Schuster and Chong Labs of the University of Chicago, including weekly meetings and perusal of modern papers in the area of optimal control theory, and specifically the application of machine learning/variational calculus paradigms to the creation of optimal quantum evolution/error correction schemes.}}
-
-\Description{\MarginText{Writers' Workshop}{(2017-2018) President and lead facilitator of the University of Chicago's Writers' Workshop, which offers course-style, student-run fiction and poetry workshops for undergraduate and graduate students, which include both lecture and workshop components. Work includes securing funding, authoring lesson plans on outside texts, and providing feedback and guidance for students during weekly sessions.}}
-
-\Description{\MarginText{University Orchestra}{(2016-2018) Oboe player (alternatively first and second position) in the University of Chicago Symphony Orchestra, which performs two concerts per academic quarter (ten weeks), with up to six hours of rehearsal per week. Performs classical as well as modern repertoire.}}
-
 %----------------------------------------------------------------------------------------
 %	ADDITIONAL SKILLS
 %----------------------------------------------------------------------------------------
 
 \noindent\textbf{additional skills} \hspace{1ex} \vhrulefill \vspace{0.5em}
 
-\Description{\MarginText{Programming}{Java} $\cdot$ {Python} $\cdot$ {Haskell} $\cdot$ {FORTRAN} $\cdot$ {Mathematica} $\cdot$ {MATLAB} $\cdot$ {HTML}/{CSS}}
+\Description{\MarginText{Programming}{Java} $\cdot$ {Python} $\cdot$ {Mathematica} $\cdot$ {HTML}/{CSS}/Javascript/Django $\cdot$ {UNIX} $\cdot$ {Haskell} $\cdot$ {Tensorflow}}
 
-\Description{\MarginText{Miscellaneous}{UNIX} $\cdot$ \LaTeX \ $\cdot$ {Microsoft Office} $\cdot$ {GIMP}}
+\Description{\MarginText{Miscellaneous}{InDesign} $\cdot$ {\LaTeX} $\cdot$ {GIMP}}
 
 \Description{\MarginText{Language}{Japanese (4+ years of study $\cdot$ high-intermediate)}}
 
