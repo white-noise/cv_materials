@@ -41,7 +41,7 @@
 
 \usepackage{tikz}
 \usepackage{graphicx}
-\usepackage{epsfig}
+% \usepackage{epsfig}
 \usepackage{fourier-orns}
 \usepackage{stix}
 \usepackage{microtype}
@@ -71,7 +71,7 @@
      \fill[color=nasaBlue] (-8cm, 2cm) rectangle (18cm,1.5cm);
 \end{tikzpicture}
 
-\begin{cv}{\spacedallcaps{Zane Rossi} $\,\cdot\,$ \virgo}\vspace{1.5em} % Your name
+\begin{cv}{\spacedallcaps{Zane Rossi}}\vspace{1.5em} % Your name
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -106,12 +106,21 @@ Japanese (4+ years study, High-Intermediate)
 
 \noindent\textbf{personal information} \hspace{1ex} \vhrulefill \vspace{0.5em}  % Personal information heading
 
-\hangindent=2em\hangafter=0{\footnotesize
-\noindent 5717 1/2, S. Kimbark Ave.\newline
-Chicago, IL, 60637\newline
-(M) +1 (925) 330 0920\newline
-\href{mailto:zmr@uchicago.edu}{zmr@uchicago.edu} % Email address
+% \hangindent=2em\hangafter=0{\footnotesize
+% \noindent 5717 1/2, S. Kimbark Ave.\newline
+% Chicago, IL, 60637\newline
+% (M) +1 (925) 330 0920\newline
+% \href{mailto:zmr@uchicago.edu}{zmr@uchicago.edu} % Email address
+% }
+
+{\footnotesize\noindent
+	\Description{\noindent 5717 1/2, S. Kimbark Ave.\newline
+	Chicago, IL, 60637\newline
+	(M) +1 (925) 330 0920\newline
+	\href{mailto:zmr@uchicago.edu}{zmr@uchicago.edu} % Email address
+	}
 }
+
 
 \vspace{0.5em}
 
@@ -146,15 +155,14 @@ Chicago, IL, 60637\newline
 
 \NewEntry{{\textcolor{nasaBlue}{Chong Lab}} $\cdot$ Chicago, IL}{Dec 2017--Present}
 
-\Description{\MarginText{Computer-Science Research Assistant}\textcolor{nasaBlue}{$\mdblkdiamond$} Authored Python/C code and analytic theory for the optimal generation of various error-corrective (e.g., Shor code, cat-code) evolution schemes in appropriately coupled systems of qubits with novel models for included noise\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} Investigated algorithmic complexity of optimal control codes, and authored proof-of-concept models toward an eventual quantum compilation engine capable of efficient creation of simple evolution schemes from finite sets of constituent gates using sparse matrix techniques\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} Gave weekly informal presentations to group members, and more occasional formal presentations to other members of EPiQC multi-institution consortium, under lead PI, Professor Fred Chong\\
+\Description{\MarginText{Computer-Science Research Assistant}\textcolor{nasaBlue}{$\mdblkdiamond$} Investigated algorithmic complexity of optimal control codes, and authored proof-of-concept models toward an eventual quantum compilation engine capable of efficient creation of simple evolution schemes from finite sets of constituent gates using sparse matrix techniques\newline
+\textcolor{nasaBlue}{$\mdblkdiamond$} Gave weekly informal presentations to group members, and more occasional formal presentations to other members of EPiQC multi-institution consortium, under lead PI, Professor Frederic Chong\\
 %Reference: Phillipe \textsc{Guyot-Sionnest}\ \ $\cdotp$\ \ \href{mailto:pgs@uchicago.edu}{pgs@uchicago.edu}
 }
 
 %------------------------------------------------
 
-\NewEntry{{\textcolor{nasaBlue}{Katsura Lab}} $\cdot$ Tokyo, JPN}{Jun--Aug 2017}
+\NewEntry{{\textcolor{nasaBlue}{Katsura Lab}} $\cdot$ Tokyo, JPN}{Jun--Dec 2017}
 
 \Description{\MarginText{Mathematical Physics Research Assistant}\textcolor{nasaBlue}{$\mdblkdiamond$} Derived novel entanglement metrics for MBL quantum spin systems exhibiting time-translation symmetry breaking using DMRG principles and a distinctly information theoretic approach\newline
 \textcolor{nasaBlue}{$\mdblkdiamond$} Designed and implemented algorithms based in Vidal's TEBD theory, exponentially reducing time for classical simulation of MBL systems. Drafted and presented weekly lectures to graduate and undergraduate students at the University of Tokyo Hongo campus, and final program report\\
@@ -166,18 +174,20 @@ Chicago, IL, 60637\newline
 \NewEntry{{\textcolor{nasaBlue}{Guyot-Sionnest Lab}} $\cdot$ Chicago, IL}{Jun--Dec 2016}
 
 \Description{\MarginText{Computational Physics Research Assistant}\textcolor{nasaBlue}{$\mdblkdiamond$} Designed, wrote, and tested algorithms to both electromagnetically model behavior of thin-film photovoltaic devices and optimize physical dimensions via metaheuristic search algorithms\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} Wrote documentation for designed code, formatted theoretical data to be compared with experiment performed by University of Chicago Guyot-Sionnest Lab, and presented these results to colleagues in weekly meetings\\
+\textcolor{nasaBlue}{$\mdblkdiamond$} Wrote documentation for designed code, formatted theoretical data to be compared with experiment performed by University of Chicago Guyot-Sionnest Lab, and presented results to colleagues\\
 %Reference: Phillipe \textsc{Guyot-Sionnest}\ \ $\cdotp$\ \ \href{mailto:pgs@uchicago.edu}{pgs@uchicago.edu}
 }
 
-%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
 
-\NewEntry{{\textcolor{nasaBlue}{Haghighat Lab}} $\cdot$ Arlington, VA}{Jun--Aug 2014, 2015}
+\noindent\textbf{publications} \hspace{1ex} \vhrulefill \vspace{0.5em}
 
-\Description{\MarginText{Computational Physics Intern}\textcolor{nasaBlue}{$\mdblkdiamond$} Designed and programmed simulations of reactor-pool neutron-scattering with the Virginia Tech Transport Theory Group (VT\textsuperscript{3}G) to optimize heat diffusion characteristics of spent fuel repositories\newline
-\textcolor{nasaBlue}{$\mdblkdiamond$} Prepared presentations and \LaTeX \ reports; authored/supplemented previous \textsc{FORTRAN}/C\# for simulations under the PENTRAN modeling framework\\
-%Reference: Nathan \textsc{Roskoff}\ \ $\cdotp$\ \ \href{mailto:roskofnj@gmail.com}{roskofnj@gmail.com}
-}
+\Description{{Optimized Compilation of Aggregated Instructions for Realistic Quantum Computers} $\cdot$ {Under Professor F. Chong} $\cdot$ {(\textit{forthcoming in ASPLOS, November 2018})}}
+
+\Description{{Analytic and Computational Investigations of Spontaneous TTSB in High Spin Systems} $\cdot$ {Under Professor H. Katsura} $\cdot$ {(\textit{internal report})}}
+
 
 \vspace{0.5em}
 
@@ -188,18 +198,18 @@ Chicago, IL, 60637\newline
 \newpage
 
 %----------------------------------------------------------------------------------------
-%	LEADERSHIP AND EXTRA-CURRICULARS
+%	LEADERSHIP AND INVOLVEMENT
 %----------------------------------------------------------------------------------------
 
 \noindent\textbf{leadership and involvement} \hspace{1ex} \vhrulefill \vspace{0.5em}
 
-\Description{\MarginText{Mathematics Lecturer}{(2015-2018) Author and lecturer of presentations for the societies of mathematics and physics students at the University of Chicago; lectures focus on both introductory, general material and material specific to the lecturer's research.}}
+\Description{\MarginText{Mathematics Lecturer}{(2015-2018) Authored and lectured presentations for the societies of mathematics and physics students at the University of Chicago on general topics \& personal research.}}
 
-\Description{\MarginText{Reading Program}{(2017-2018) Directed reading under the graduate students and principle investigators of both the Schuster and Chong Labs of the University of Chicago, comprising weekly meeting and perusal of modern papers in the area of optimal control theory, specifically the application of machine learning methods to quantum optimal control \& error correction.}}
+\Description{\MarginText{Reading Program}{(2017-2018) Directed reading under the graduate students and principle investigators of both the Schuster and Chong Labs of the University of Chicago, comprising weekly meeting and perusal of papers in optimal control theory and machine-learning assisted quantum error correction.}}
 
-\Description{\MarginText{Writers' Workshop}{(2017-2018) President and lead facilitator of the University of Chicago's Writers' Workshop, which offers course-style, student-run fiction and poetry workshops for undergraduate and graduate students, which include both lecture and workshop components. Work includes securing funding, authoring lesson plans on outside texts, and providing guidance \& long-form feedback for students during weekly meetings.}}
+\Description{\MarginText{Writers' Workshop}{(2017-2018) President and lead facilitator of the University of Chicago's Writers' Workshop, offering weekly student-led fiction and poetry workshops.}}
 
-\Description{\MarginText{University Orchestra}{(2016-2018) Oboe player (alternatively first and second position) in the University of Chicago Symphony Orchestra, which performs two concerts per academic quarter (i.e., ten weeks), with up to six hours of rehearsal per week. Classical and modern repertoire.}}
+\Description{\MarginText{University Orchestra}{(2016-2018) Oboe player (alternately first and second position) in the University of Chicago Symphony Orchestra. Classical and modern repertoire.}}
 
 %----------------------------------------------------------------------------------------
 %	RELEVANT COURSE WORK
@@ -207,9 +217,9 @@ Chicago, IL, 60637\newline
 
 \noindent\textbf{relevant coursework} \hspace{1ex} \vhrulefill \vspace{0.5em}
 
-\Description{\MarginText{Mathematics}{Real Analysis} $\cdot$ {Complex Analysis} $\cdot$ {Differential Equations} $\cdot$ {Honors Abstract Algebra} $\cdot$ {Computability Theory} $\cdot$ {Mathematical Logic}}
+\Description{\MarginText{Mathematics}{Real Analysis} $\cdot$ {Complex Analysis} $\cdot$ {Differential Equations} $\cdot$ {Honors Abstract Algebra} $\cdot$ {Computability Theory (Reading Group)} $\cdot$ {Mathematical Logic}}
 
-\Description{\MarginText{Physics}{Quantum Mechanics} $\cdot$ {Honors Mechanics, Electrodynamics} $\cdot$ {Experimental Physics} $\cdot$ {Graduate General Relativity} $\cdot$ {Graduate Quantum Information}}
+\Description{\MarginText{Physics}{Quantum Mechanics} $\cdot$ {Honors Mechanics, Electrodynamics} $\cdot$ {Experimental Physics} $\cdot$ {Graduate General Relativity} $\cdot$ {Graduate Quantum Information} $\cdot$ {Quantum Field Theory}}
 
 \Description{\MarginText{Computer Science}{Artificial Intelligence} $\cdot$ {Algorithms} $\cdot$ {Computational Linguistics}}
 
@@ -219,7 +229,7 @@ Chicago, IL, 60637\newline
 
 \noindent\textbf{additional skills} \hspace{1ex} \vhrulefill \vspace{0.5em}
 
-\Description{\MarginText{Programming}{Java} $\cdot$ {Python} $\cdot$ {Mathematica} $\cdot$ {HTML}/{CSS}/Javascript/Django $\cdot$ {UNIX} $\cdot$ {Haskell} $\cdot$ {Tensorflow}}
+\Description{\MarginText{Development}{Java} $\cdot$ {Python} $\cdot$ {Mathematica} $\cdot$ {HTML}/{CSS}/Javascript/Django $\cdot$ {UNIX} $\cdot$ {Haskell} $\cdot$ {Tensorflow}}
 
 \Description{\MarginText{Miscellaneous}{InDesign} $\cdot$ {\LaTeX} $\cdot$ {GIMP}}
 
